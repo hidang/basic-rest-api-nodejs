@@ -4,14 +4,14 @@
 
 GET
 
-- /dienthoai
+- api/dienthoai
 - note: trả về tất cả điện thoại trong database dưới dạng JSON
 
 ---
 
 GET
 
-- /dienthoai/:id
+- api/dienthoai/:id
 - request: params: id
 - note: trả về điện thoại có id trong database dưới dạng JSON
 
@@ -19,7 +19,7 @@ GET
 
 POST
 
-- /dienthoai
+- api/dienthoai
 - request: body JSON
   {
   "name": string",
